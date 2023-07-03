@@ -65,10 +65,10 @@ void delay(uint32_t  delay_count){
 	uint32_t start_count;
 	start_count = get_recent_tick_count();  /* delay_start_tick is nbr of interupts since systick init? */
 
-	if (delay_count < MAX_DELAY){
+/*	if (delay_count < MAX_DELAY){
 			delay_count += TICK_FREQ;
 	}
-
+*/
 
     int value = 0 ;
 	while(value < delay_count){

@@ -15,3 +15,4 @@
 
 void uart_write(int ch);
 void uart_init();
+void gpio_init(void);
